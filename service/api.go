@@ -1,13 +1,10 @@
 package service
 
 const (
-	EchoServiceName   = "nexus-echo-service"
-	EchoOperationName = "nexus-echo-operation"
-	EchoEndpointName  = "nexus_echo_endpoint"
+	BugBashServiceName = "nexus-bug-bash-service"
 
-	HelloServiceName   = "nexus-hello-service"
-	HelloOperationName = "nexus-hello-operation"
-	HelloEndpointName  = "nexus_hello_endpoint"
+	EchoOperationName  = "nexus-bug-bash-echo-operation"
+	HelloOperationName = "nexus-bug-bash-hello-operation"
 )
 
 type (
