@@ -5,6 +5,12 @@ const (
 
 	EchoOperationName  = "nexus-bug-bash-echo-operation"
 	HelloOperationName = "nexus-bug-bash-hello-operation"
+
+	EN Language = "en"
+	FR Language = "fr"
+	DE Language = "de"
+	ES Language = "es"
+	TR Language = "tr"
 )
 
 type (
@@ -13,9 +19,10 @@ type (
 	}
 	EchoOutput EchoInput
 
+	Language   string
 	HelloInput struct {
 		Name     string
-		Language string
+		Language Language
 	}
 	HelloOutput struct {
 		Message string
